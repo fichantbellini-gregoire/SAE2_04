@@ -58,7 +58,7 @@ def creerMatriceVariableExplicative(li_Serie1,li_Serie2,li_Serie3) :
 
 # Partie principale du sujet
 
-df_Donnees = pd.read_csv("/home/etuinfo/gfichantbell/Bureau/SAE204/Partie3/donneesvueparcoursup.csv")
+df_Donnees = pd.read_csv("donneesvueparcoursup.csv")
 
 df_num_donnees = df_Donnees._get_numeric_data()
 
